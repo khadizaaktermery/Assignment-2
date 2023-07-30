@@ -7,6 +7,7 @@ body{
 font-family: 'Work Sans', sans-serif;
 }
 /* head sec */
+
 nav{
     max-height: 40%;
 }
@@ -97,15 +98,6 @@ span{
     flex-direction: row;
 }
 
-@media screen and (max-width:576px) {
-    .banner,.section-2,.section-3,.section-4,.img-container
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    
-    
-}
 
 /* head sec */
 nav{
@@ -216,15 +208,6 @@ h6{
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width:576px) {
-    .banner,.section-2,.section-3,.section-4,.img-container
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    
-    
-}
 
 
 /* head sec */
@@ -324,6 +307,9 @@ button{
         display: grid;
         grid-template-columns: 1fr;
     }
-    
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
