@@ -43,10 +43,10 @@ img{
 }
 /* main sec */
 main{
-    background-image: url(https://image.shutterstock.com/image-vector/pink-background-vector-260nw-678561049.jpg);
-    background-repeat: no-repeat;
+    background-color: rgb(250, 242, 238);
     max-width: 1440px;
     margin: 0 auto;
+    padding: 10%;
 }
 body{
     background-image: url('Group 14.png');
